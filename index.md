@@ -8,21 +8,31 @@
 
 # Peopleask
 
----
+~~
 
 # Action
 
 > affecter une date prévue de traitement (généralement contractuelle) à J+10 **jours ouvrés**
 
----
+~~
 
 # Jours ouvrés
 
----
+~~
 
 # Recherche
 
----
+~~
+
+![Stonehenge](./media/Stonehenge2007_07_30.jpg)
+
+
+~~
+
+![Astrolabe](./media/astrolabe.jpg)
+
+~~
+
 
 # Recherche
 
@@ -32,7 +42,7 @@
 
 et... ?
 
----
+~~
 
 # Techniquement
 
@@ -41,20 +51,20 @@ et... ?
 * pas possible de passer outre certaines dates
 * pas de fonction du genre "J + 7 jours ouvrés"
 
----
+~~
 
 # ...
 
 > Parfois le meilleur moyen d'avoir une roue ronde c'est de la faire soi-même
 
----
+~~
 
-# Lauréline
+# Naming things
 
 <code>
 
-    < brunobord> oyé, oyé
-    < brunobord> on cherche un nom pour le module de calendrier mondial
+    < brunobord> oyez, oyez
+    < brunobord> je cherche un nom pour le module de calendrier mondial
     < brunobord> allez-y
     < zebuline> workalendar ?
     < Hobbestigrou> ah oui c'est pas mal
@@ -67,7 +77,7 @@ et... ?
 
 # Objectifs
 
-* Boîte à outils -> calendrier "France"
+* Boîte à outils -> calendrier France + *LE MONDE* ?!?
 * Extensible
 * Fonctions intégrées (``is_working_day``, ``add_working_days``)
 * Débrayable (forcer un jour travaillé ou chômé)
@@ -87,10 +97,10 @@ et... ?
 # France
 
 * Calendrier grégorien
-* Fêtes Chrétiennes
+* Fêtes Chrétiennes (Pâques variable, le reste est fixe)
 * Jours fixes (15 août, 1er janvier, 14 juillet)
 
----
+~~
 
 ## Moins simple
 
@@ -102,33 +112,34 @@ et... ?
 
 ... donc ?
 
----
+~~
 
 # United Kingdom
 
 > Si Noël tombe un samedi ou un dimanche, on décale au **lundi suivant**
 
----
+~~
 
 # US of A.
 
 ![USA](media/24281304-media_httpwwwincredib_coptC.jpg)
 
----
+~~
 
-# United States of Complication
+## US of Alambiqué
 
 * "Le premier lundi de mars",
 * "Le second lundi d'octobre",
 * "Le jour de l'élection présidentielle"
 
----
+~~
 
-# United States of Complication
+## US of Alambiqué
 
 * cas particuliers sur les états,
-* les comtés
-* les villes
+* les comtés,
+* les villes,
+* les administrations,
 * ma salle de bains
 
 ----
@@ -141,23 +152,23 @@ Trois formes de calcul de Pâques :
 * Julien,
 * Orthodoxe,
 
----
+~~
 
 # Want some more?
 
----
+~~
 
 # Le Calendrier lunaire !
 
----
+~~
 
 # Le Calendrier **luni-solaire** !
 
----
+~~
 
 ![Galaxy](media/YouAreHereInTheGalaxy.png)
 
----
+~~
 
 # Rappels
 
@@ -165,7 +176,7 @@ Trois formes de calcul de Pâques :
 * une "année" lunaire 12 * 29 jours *environ* == 348j.
 * une année solaire == 365,242201 jours
 
----
+~~
 
 # Merci
 
@@ -176,8 +187,7 @@ Trois formes de calcul de Pâques :
 
 # Mais ce n'est pas tout !
 
-
-----
+~~
 
 # L'Islam
 
@@ -187,51 +197,81 @@ Trois formes de calcul de Pâques :
 
 Jusqu'ici, tout va bien...
 
-----
+~~
 
 # Argh n°1
 
-> Ce calendrier [lunaire] diffère entre les sunnites et les chiites ; des écarts de près de deux jours peuvent se produire.
+> Ce calendrier [lunaire] diffère entre les sunnites et les chiites ; des écarts de près de deux jours peuvent se produire.  
+> (source: Wikipedia)
 
-> -- source: Wikipedia
-
-----
-
+~~
 
 ![Le Cri](media/le-cri.jpg)
 
-----
+~~
 
 # Argh n°2
 
-> La majorité des musulmans insiste sur l'observation locale du croissant de lune pour marquer le début du ramadan, mais d'autres insistent sur le calcul de la nouvelle lune ou sur la déclaration saoudienne pour déterminer le début du mois.
+> La majorité des musulmans insiste sur l'observation locale du croissant de lune pour marquer le début du ramadan, mais d'autres insistent sur le calcul de la nouvelle lune ou sur la déclaration saoudienne pour déterminer le début du mois.  
+> (source: Wikipedia)
 
-> -- source: Wikipedia
-
-----
+~~
 
 ![Le Cri](media/le-cri.jpg)
 
+~~
+
+# Israël
+
+* Calendrier hébreux
+* calendrier lunaire aussi, mais différent,
+* merci le [module ``pyluach``](https://pypi.org/project/pyluach/)
+
 ----
 
-# Taiwan
+# Hello, l'astronomie !
 
-* Nécessite le calcul des équinoxes
-* Sans oublier les fuseaux horaires !
-* [PyEphem](https://pypi.python.org/pypi/pyephem/)
+![Complex calculations](media/complex-calculation.gif)
+
+~~
+
+## Taiwan & Hong Kong
+
+* Nécessitent le calcul du "terme solaire"
+* Attention aux fuseaux horaires !
+* Merci [PyEphem](https://pypi.python.org/pypi/pyephem/) <small>(more on this later)</small>
+
+~~
+
+# Japon
+
+* Équinoxes !
+* Attention aux fuseaux horaires (bis) !
+* Merci PyEphem <small>(ouais, je tease, mais c'est pour voir si tu suis)</small>
 
 ----
+
+# Ma baleine blanche
+
+~~
+
+
+![Moby Dick](media/moby-dick.jpg)
+
+~~
 
 # Mongolie
 
-> A thirteenth month is added every two or three years, so that an average year is equal to the solar year.
-> -- http://en.wikipedia.org/wiki/Mongolian_calendar
+<small>
 
+> The Mongol year is composed of either 12 or 13 lunar months, each beginning and ending with a new moon. A thirteenth month is added every two or three years, so that an average year is equal to the solar year.  
+> [wikipedia](http://en.wikipedia.org/wiki/Mongolian_calendar)
 
-----
+</small>
+
+~~
 
 ![Le Cri](media/Edvard-Munch-Le-Cri-parodie-lapin-cretin.jpg)
-
 
 ----
 
@@ -240,10 +280,10 @@ Jusqu'ici, tout va bien...
 
 ----
 
-# Utopie
+## Principe de réalité
 
-* jamais 100% parfait
-* renvoyer des alertes (sans tout casser)
+* 100% parfait, c'est inimaginable
+* renvoyer des ``warnings`` quand on sait qu'on est approximatif
 * laisser la possibilité de rajouter ses exceptions
 
 ----
@@ -252,7 +292,7 @@ Jusqu'ici, tout va bien...
 
 * 139 pays à l'O.N.U.
 * 249 pays dans ``django-countries``
-* ... et les variantes
+* ... et les variantes régionales (USA, Australie, Inde...)
 
 ----
 
@@ -260,9 +300,15 @@ Jusqu'ici, tout va bien...
 
 ----
 
-# Alsace / Moselle
+# Alsace/Moselle
 
 ![Alsace Moselle](media/alsace-moselle.png)
+
+~~
+
+# Alsace/Moselle
+
+== France + Vendredi Saint + 26 Décembre
 
 ----
 
@@ -289,18 +335,19 @@ Jusqu'ici, tout va bien...
 
 # 24
 
-> Australia, *United Kingdom*, South Africa, **Alsace / Moselle**, **Japan**,
-> Benin, Italy, *Brazil*, Algeria, Northern Ireland, Mexico, Ivory Coast,
-> Hungary, São Tomé, Norway, Qatar, Chile, **Taiwan**, Marshall Islands,
-> *Poland*, Panama, Greece, Madagascar, Finland
+Australia, *United Kingdom*, South Africa, **Alsace / Moselle**, **Japan**,
+Benin, Italy, *Brazil*, Algeria, Northern Ireland, Mexico, Ivory Coast,
+Hungary, São Tomé, Norway, Qatar, Chile, **Taiwan**, Marshall Islands,
+*Poland*, Panama, Greece, Madagascar, Finland
 
-<small>en gras, ce sont les contributions extérieures, en italique, les
-pays pour lesquels on avait du code extérieur.</small>
+<small>en gras, ce sont les contributions extérieures,<br/>
+en italique, les pays pour lesquels on avait du code pré-existant.</small>
 
 ----
 
-
 ![Workalendar au 31/12/2013](media/workalendar-2013-12-31.png)
+
+<small>31/12/2013</small>
 
 ----
 
@@ -309,7 +356,6 @@ pays pour lesquels on avait du code extérieur.</small>
 ----
 
 ![Retroussons nos manches](media/Retroussons_nos_manches.jpg)
-
 
 ----
 
