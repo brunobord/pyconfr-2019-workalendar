@@ -1,0 +1,27 @@
+blockquote p strong {
+    font-variant: small-caps !important;
+}
+
+strong em {
+    font-variant: small-caps !important;
+    font-weight: bolder;
+}
+
+blockquote p {
+    text-align: left;
+    margin-left: .333em !important;
+}
+
+blockquote {
+    width: 100% !important;
+}
+
+body {
+    background: #2b95d3 !important;
+    background-color: #2b95d3 !important;
+}
+
+a {
+    color: white !important;
+    text-decoration: underline !important;
+}
