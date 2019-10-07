@@ -155,6 +155,43 @@ et... ?
 
 ----
 
+# J'aime l'Islande
+
+... Mais le calendrier Islandais ne m'a pas facilité la tâche.
+
+~~
+
+# Quiz:
+
+## Quel jour est
+## "le premier jour de l'été" ?
+
+~~
+
+# Le 21 JUIN !
+
+![Yes](media/yes.gif)
+
+~~
+
+# Mais pas en Islande...
+
+~~
+
+# sumardagurinn fyrsti
+
+> The premier jour de l'été (sumardagurinn fyrsti) est un jour férié en Islande qui est célébré le premier jeudi après le 18 avril (soit entre le 19 et le 25 April).
+
+----
+
+# Calendriers Religieux
+
+~~
+
+# Calendrier Chrétien
+
+~~
+
 # Calendrier(s) Chrétien(s)
 
 Trois formes de calcul de Pâques :
@@ -193,10 +230,6 @@ Trois formes de calcul de Pâques :
 
 * le module ``datetime`` connaît les années bissextiles
 * [Module ``lunardate``](https://pypi.python.org/pypi/lunardate/)
-
-----
-
-# Mais ce n'est pas tout !
 
 ~~
 
