@@ -16,7 +16,19 @@
 
 ~~
 
-# Jours ouvrés
+# Fastoche !
+
+* On déroule les jours,
+* Si ouvré on *incrémente*,
+* Si férié **OU** samedi/dimanche on *skippe*
+
+~~
+
+# Jours ouvrés ?
+
+~~
+
+# Jours fériés ?
 
 ~~
 
@@ -36,9 +48,9 @@
 
 # Recherche
 
-* un module Brazil + UK + Poland
-* un module Czech
-* un module Iceland
+* un module très pointu: ``icelandic_holidays``,
+* un autre tout aussi pointu: ``czech-holidays``.
+* un module Brazil + UK + Poland (MAIS POURQUOI ?),
 
 et... ?
 
@@ -49,7 +61,7 @@ et... ?
 * trop centrés sur un pays
 * pas ou peu extensibles
 * pas possible de passer outre certaines dates
-* pas de fonction du genre "J + 7 jours ouvrés"
+* pas de fonction du genre *"J + 7 jours ouvrés"*
 
 ~~
 
@@ -61,24 +73,23 @@ et... ?
 
 # Naming things
 
-<code>
-
-    < brunobord> oyez, oyez
-    < brunobord> je cherche un nom pour le module de calendrier mondial
-    < brunobord> allez-y
-    < zebuline> workalendar ?
-    < Hobbestigrou> ah oui c'est pas mal
-    < Hobbestigrou> je trouve
-    < brunobord> je note
-
-</code>
+```irc
+< brunobord> oyez, oyez
+< brunobord> je cherche un nom pour le module de calendrier
+             mondial
+< brunobord> allez-y
+< zebuline> workalendar ?
+< Hobbestigrou> ah oui c'est pas mal
+< Hobbestigrou> je trouve
+< brunobord> je note
+```
 
 ----
 
 # Objectifs
 
 * Boîte à outils -> calendrier France + *LE MONDE* ?!?
-* Extensible
+* Extensible / Modulaire
 * Fonctions intégrées (``is_working_day``, ``add_working_days``)
 * Débrayable (forcer un jour travaillé ou chômé)
 
