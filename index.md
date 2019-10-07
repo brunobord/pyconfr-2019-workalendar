@@ -178,7 +178,7 @@ et... ?
 
 ~~
 
-# sumardagurinn fyrsti
+## sumardagurinn fyrsti
 
 > The premier jour de l'été (sumardagurinn fyrsti) est un jour férié en Islande qui est célébré le premier jeudi après le 18 avril (soit entre le 19 et le 25 April).
 
@@ -202,15 +202,8 @@ Trois formes de calcul de Pâques :
 
 ~~
 
-# Want some more?
-
-~~
-
-# Le Calendrier lunaire !
-
-~~
-
-# Le Calendrier **luni-solaire** !
+# Do you know?...
+## Le Calendrier **luni-solaire** ?
 
 ~~
 
@@ -268,7 +261,7 @@ Jusqu'ici, tout va bien...
 # Israël
 
 * Calendrier hébreux
-* calendrier lunaire aussi, mais différent,
+* calendrier lunaire aussi, mais différent <small>(hahaha ce serait trop simple, hein)</small>,
 * merci le [module ``pyluach``](https://pypi.org/project/pyluach/)
 
 ----
@@ -289,9 +282,51 @@ Jusqu'ici, tout va bien...
 
 # Japon
 
-* Équinoxes !
+* Calcul des jours fériés à partir de l'Équinoxe
 * Attention aux fuseaux horaires (bis) !
 * Merci PyEphem <small>(ouais, je tease, mais c'est pour voir si tu suis)</small>
+
+~~
+
+# PyEphem
+
+* Standard de fait,
+* "solar terms", *Just Google It*,
+* Python 2/3
+
+~~
+
+# PyEphem
+
+## Basé sur la lib `XEphem`
+
+* Non-Free
+* Compilation GCC
+* Adieu, Windows
+
+~~
+
+# PyEphem
+
+> PyEphem is in maintenance mode
+
+~~
+
+![Skyfield](media/logo-skyfield.png)
+
+~~
+
+# Skyfield
+
+* Même auteur,
+* pure-Python,
+* Python 2/3,
+
+~~
+
+# Skyfield
+
+![Stars & Galaxies, Everywhere](media/buzz.jpg)
 
 ----
 
