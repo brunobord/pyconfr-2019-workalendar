@@ -4,8 +4,8 @@ Slides et autres joyeusetés préparées à l'occasion de la PyConFR 2019 (à Bo
 
 ## Branches
 
-* ``workalendar-markdown-setup`` == Branche de setup, concernant les fichiers HTML et autres variables de configuration.
-* ``workalendar-markdown`` == La présentation en elle-même (le fichier ``index.md`` et ses assets : images, etc)
+* ``setup`` == Branche de setup, concernant les fichiers HTML et autres variables de configuration.
+* ``master`` == La présentation en elle-même (le fichier ``index.md`` et ses assets : images, etc)
 
 Servir en statique:
 
