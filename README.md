@@ -13,6 +13,8 @@ Servir en statique:
 python -m http.server
 ```
 
+Autrement, la présentation est visible sur <https://brunobord.github.io/pyconfr-2019-workalendar/>
+
 ## Références
 
 * Le projet Github : <https://github.com/peopledoc/workalendar>,
